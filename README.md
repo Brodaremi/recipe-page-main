@@ -60,6 +60,6 @@ Going forward i will be doing more CSS challenges before going further into lear
 ## Author
 
 - Website - [Remi Momoh](https://x.com/BrodaRemi)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Brodaremi)
-- Twitter - [@yourusername](https://x.com/BrodaRemi)
+- Frontend Mentor - [@Brodaremi](https://www.frontendmentor.io/profile/Brodaremi)
+- Twitter - [@BrodaRemi](https://x.com/BrodaRemi)
 
