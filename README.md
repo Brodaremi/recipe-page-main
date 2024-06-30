@@ -20,15 +20,15 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Screenshot
 
-![](./Screenshots/Recipe%20page%20screenshot%20desktop.png.png)
-![](./Screenshots/Recipe%20page%20screenshot%20mobile%20375.png.png)
-![](./Screenshots/Recipe%20page%20screenshot%20mobile%20425.png.png)
-![](./Screenshots/Recipe%20page%20screenshot%20tablet.png.png)
+![](./Screenshots/Recipe%20page%20screenshot%20desktop.png)
+![](./Screenshots/Recipe%20page%20screenshot%20mobile%20375.png)
+![](./Screenshots/Recipe%20page%20screenshot%20mobile%20425.png)
+![](./Screenshots/Recipe%20page%20screenshot%20tablet.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Front end mentor solution](https://www.frontendmentor.io/solutions/recipe-page-main-using-responsive-css-1sf8zFG16n)
+- Live Site URL: [Live page on github pages](https://brodaremi.github.io/recipe-page-main/)
 
 ## My process
 
