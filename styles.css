@@ -1,0 +1,362 @@
+* {
+    border-spacing: 0px;
+    width: 100%;
+}
+
+body{
+    background-color: hsl(30, 18%, 87%);
+    margin: auto;
+}
+main{
+    width: 30%;
+    margin:50px auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: white;
+    padding-bottom: 0;
+}
+header{
+    background-color: white;
+    width: 100%;
+    height: fit-content;
+}
+img{
+    border-radius: 5px; 
+}
+
+#first h2 {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 10px 0;
+}
+
+#first p {
+    text-align: start;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: smaller;
+    margin: 0;
+    padding: 0;
+    height: 30px;
+    padding-bottom: 20px;
+}
+
+span{
+    font-weight: bold;
+    padding-left: 5px;
+}
+#second{
+    border-radius: 5px;
+    background-color: hsl(30, 54%, 90%);
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: smaller;
+    padding: 2px 0;
+    margin-top: 20px;
+}
+
+#second h3{
+    padding-left: 20px;
+    color: hsl(332, 51%, 32%);
+    width: auto;
+}
+ul{
+    width: auto;
+}
+ol{
+    width: auto;
+}
+#second li{
+    padding-bottom: 8px;
+    width: inherit;
+}
+
+#second li:last-child{
+    padding-bottom: 0;
+}
+
+#third h2{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: hsl(14, 45%, 36%);
+}
+
+#third ul{
+    padding-left: 15px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: smaller;
+    margin-top: 0;
+}
+
+#third li{
+    padding-bottom: 8px;
+    width: inherit;
+}
+
+#fourth h2{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: hsl(14, 45%, 36%);
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+#fourth ol{
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: smaller;
+    margin-top: 0;
+    padding: 0 0 0 20px;
+  
+}
+
+#fourth ol li{
+    padding-right: 0;
+    width: inherit;
+}
+#fourth li{
+    padding-bottom: 8px;
+    
+}
+
+#fourth li::marker{
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+    padding-right: 0;
+}
+
+#fourth p{
+    padding-left: 15px;
+    width: inherit;
+    margin: 0;
+}
+#fourth span{
+    padding: 0;
+}
+
+
+#fifth h2{
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#fifth p{
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: smaller;
+}
+
+#fifth td{
+    width: 50%;
+    font-family: "Outfit", sans-serif;
+    font-style: normal;
+    font-size: small;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+
+
+
+.values:last-child{
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+/* td{
+    border-bottom: 0.1rem solid hsl(30, 10%, 34%);
+} */
+
+table tr td{
+    border-bottom: 1px solid rgb(214, 205, 205);
+}
+
+.fat{
+    border-bottom: 0;
+}
+
+.yeah{
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+    border-bottom: 0;
+}
+
+
+
+
+.attribution {
+    font-size: 11px;
+    padding: 0 0 20px 0;
+    text-align: center;
+}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+/* Media queries */
+@media screen and (max-width: 1024px){
+       
+    main{
+        width: 50%;
+        margin:50px auto;
+        padding: 20px;
+        border-radius: 5px;
+    }
+    #first p{
+        padding-bottom: 20px;
+    }
+    .attribution{
+        padding: 0 0 10px 0;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    main{
+        width: 65%;
+        margin: 20px auto;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    #first p {
+        text-align: start;
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: smaller;
+        margin: 0;
+        padding: 0;
+        height: auto;
+    } 
+    .attribution{
+        padding: 0 0 10px 0;
+    }
+
+
+}
+
+@media screen and (max-width: 425px){  
+    main{
+        width: 80%;
+        margin: 15px auto;
+        padding: 20px;
+        border-radius: 5px;
+    }
+    .attribution{
+        padding: 0 0 10px 0;
+    }
+}
+
+@media screen and (max-width: 375px){  
+    main{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        padding-bottom: 10px;
+        border-radius: 5px;
+    }
+    img{
+        border-radius: 0; 
+    }
+
+    #first{
+        width: fit-content;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    #first h2{
+        width: 90%;
+        font-weight: 400;
+        font-style: normal;
+        font-size:xx-large;
+        margin: 10px 0;
+        
+    }
+    #first p {
+        text-align: justify;
+        font-weight: 400;
+        font-style: normal;
+        font-size: medium;
+        height: max-content;
+    } 
+    #second{
+        border-radius: 5px;
+        font-weight: 400;
+        font-style: normal;
+        font-size: medium;
+        padding: 2px 0;
+        margin: 30px;
+        width: 80%;
+    }
+
+    ul{
+        width: auto;
+        padding: 0 0 0 50px;
+    }
+    ol{
+        width: auto;
+    }
+    #second li{
+        padding-bottom: 8px;
+        width: 80%;
+    }
+    
+    #second li:last-child{
+        padding-bottom: 0;
+    }
+
+    #third{
+        margin: 0  0 0 30px;
+        width: auto;
+    }
+    #third h2{
+        font-size: xx-large;
+    }
+    
+    #third ul{
+        font-size: medium;
+    }
+    #fourth{
+        margin: 0 30px 0 30px;
+        width: auto;
+    }
+    #fourth h2{
+        font-size: xx-large;
+    }
+    
+    #fourth ol{
+        font-size: medium;      
+    }
+    #fifth{
+        margin: 0 30px 0 30px;
+        width: auto;
+    }
+    hr{
+        margin: 0 30px 0 30px;
+        width: auto; 
+    }
+    #fifth h2{
+        font-size: xx-large;
+    }
+    #fifth p{
+        font-size: medium;
+    }
+    
+    #fifth td{
+        font-size: medium;
+    }
+    .attribution{
+        padding: 10px 0;
+    }
+}
